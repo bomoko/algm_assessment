@@ -14,7 +14,7 @@ class GenerateCommand extends Command
 
     const NUMBER_OF_USERS = 20;
 
-    const NUMBER_OF_ISSUES = 10;
+    const NUMBER_OF_ISSUES = 5;
 
     protected function configure()
     {
@@ -65,7 +65,7 @@ class GenerateCommand extends Command
 
         $logId = 1;
         foreach ($issues as $issue) {
-            $numberTimelogs = rand(1, 3);
+            $numberTimelogs = rand(1, 2);
             for ($i = 0; $i < $numberTimelogs; $i++) {
                 $timelogs[] = (object)[
                   'id' => $logId++,
