@@ -14,7 +14,7 @@ class GenerateCommand extends Command
 
     const NUMBER_OF_USERS = 20;
 
-    const NUMBER_OF_ISSUES = 1000;
+    const NUMBER_OF_ISSUES = 200;
 
     protected function configure()
     {
