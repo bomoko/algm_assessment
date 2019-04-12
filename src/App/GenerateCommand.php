@@ -12,7 +12,7 @@ class GenerateCommand extends Command
 
     protected static $defaultName = 'app:generate-test-data';
 
-    const NUMBER_OF_USERS = 20;
+    const NUMBER_OF_USERS = 3;
 
     const NUMBER_OF_ISSUES = 15;
 
