@@ -39,10 +39,10 @@ class GenerateCommand extends Command
             return (object)$i;
         },
           [
-            ['id' => 1, 'DEVOPS'],
-            ['id' => 2, 'DESIGN'],
-            ['id' => 3, 'BACKEND'],
-            ['id' => 4, 'FRONTEND'],
+            ['id' => 1, 'name'=>'DEVOPS'],
+            ['id' => 2, 'name'=>'DESIGN'],
+            ['id' => 3, 'name'=>'BACKEND'],
+            ['id' => 4, 'name'=>'FRONTEND'],
           ]
         );
 
